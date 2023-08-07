@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.destaque__1 {
+    color: red;
+}
+
+.conteudo {
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+ 
+.section__1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.section__1__titulo {
+    font-size: 3.75rem;
+    font-family: 'Castoro Titling', cursive;
+}
+
+.section__1__imagem {
+    width: 30%;
+}
+
+.section__1__texto {
+    font-size: 2.063rem;
+    font-family: 'Castoro Titling', cursive;
+}
+
+.section__1__link {
+    font-family: 'Castoro Titling', cursive;
+    font-size: 1.25rem;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 15%;
+    padding-right: 15%;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+}
